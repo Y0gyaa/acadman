@@ -25,7 +25,7 @@ SECRET_KEY = 'w+0#63z@(1@xyy$+hmty()-kqdsw^dufh3&57(#i+-%odr3+d('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ '*']
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'acadman.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
